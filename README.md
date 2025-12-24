@@ -511,6 +511,9 @@ pip install -r requirements.txt --force-reinstall
 - **Solution**: Ensure CUDA is properly installed
 
 ---
+## 🎥 Demo Video
+
+Watch the complete demonstration:
 
 ## 👨‍💻 Author
 
