@@ -513,7 +513,7 @@ pip install -r requirements.txt --force-reinstall
 ---
 ## 🎥 Demo Video
 
-Watch the complete demonstration:
+Watch the complete demonstration: https://www.youtube.com/watch?v=BF86No4GJS4
 
 ## 👨‍💻 Author
 
