@@ -1,0 +1,91 @@
+# YouTube Video Summarizer - Python Dependencies
+# Project: Offline AI-Powered Video Transcription & Summarization
+# Author: Kumar Jeet
+# Date: December 24, 2025
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+
+# PyTorch - Deep Learning Framework
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Transformers - Hugging Face Models (BART)
+transformers>=4.30.0
+
+# YouTube Downloader
+yt-dlp>=2023.12.0
+
+# Speech Recognition
+openai-whisper>=20231117
+
+# ============================================================================
+# WEB FRAMEWORK
+# ============================================================================
+
+# Flask Web Server
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Colab Deployment
+pyngrok>=6.0.0
+
+# ============================================================================
+# AUDIO/VIDEO PROCESSING
+# ============================================================================
+
+# Audio processing
+ffmpeg-python>=0.2.0
+
+# ============================================================================
+# UTILITIES
+# ============================================================================
+
+# Progress bars
+tqdm>=4.65.0
+
+# Regular expressions (built-in, listed for documentation)
+# regex>=2023.0.0
+
+# File handling (built-in)
+# os, shutil, pathlib
+
+# ============================================================================
+# OPTIONAL (for enhanced functionality)
+# ============================================================================
+
+# Jupyter notebook support
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0
+
+# ============================================================================
+# SYSTEM REQUIREMENTS
+# ============================================================================
+# Python: 3.8 or higher
+# GPU: CUDA-compatible (optional, recommended for Whisper)
+# RAM: 8GB minimum, 16GB recommended
+# Storage: 5GB free space for models
+# ============================================================================
+
+# INSTALLATION INSTRUCTIONS:
+# --------------------------
+# 1. Create virtual environment:
+#    python -m venv venv
+#    source venv/bin/activate  # On Windows: venv\Scripts\activate
+#
+# 2. Install dependencies:
+#    pip install -r requirements.txt
+#
+# 3. For GPU support (CUDA):
+#    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#
+# 4. Verify installation:
+#    python -c "import torch; print(torch.cuda.is_available())"
+#
+# ============================================================================
+# NOTES:
+# - First run will download ~3GB of models (Whisper + BART)
+# - FFmpeg must be installed on system: https://ffmpeg.org/download.html
+# - For Colab, most dependencies are pre-installed
+# ============================================================================
