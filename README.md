@@ -159,7 +159,7 @@ YouTube URL → Audio Download → Whisper Transcription → Text Chunking → B
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/youtube-summarizer.git
+git clone https://github.com/Jeetibp/youtube-video-summarizer
 cd youtube-summarizer
 
 # 2. Create virtual environment
